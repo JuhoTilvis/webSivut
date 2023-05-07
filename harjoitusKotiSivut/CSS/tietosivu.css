@@ -1,0 +1,44 @@
+.ylareuna,ul{
+    font-size: larger;
+    padding: 1%;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+.ylareuna,li,a{
+    display: block;
+    padding: 1px;
+    background-color: grey;
+    border: solid black;
+    border-collapse: collapse;
+}
+.ylareuna, li a:hover{
+    background-color: white;
+}
+.otsikko{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.otsikko, h1{
+    font-size: xx-large;
+}
+.otsikko, p{
+    font-size: medium;
+}
+.videot{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vakoilu{
+    width: 50%;
+}
+.vakoilu, h2{
+    text-align: center;
+}
+.top{
+    width: 50%;
+}
+.top,h2{
+    text-align: center;
+}

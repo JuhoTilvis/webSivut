@@ -1,0 +1,40 @@
+.ylareuna,ul{
+    font-size: larger;
+    padding: 1%;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+.ylareuna,li,a{
+    display: block;
+    padding: 1px;
+    background-color: grey;
+    border: solid black;
+    border-collapse: collapse;
+}
+.ylareuna, li a:hover{
+    background-color: white;
+}
+.kello, h1, p{
+    font-size: x-large;
+    text-align: center;
+}
+.alareuna{
+border-image-width: auto;
+
+}
+.vasen, table, th, td{
+    font-size: x-large;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+.kuvat{
+    display: flex;
+}
+.alareuna{
+    width: 50%;
+}
+.torni{
+    width: 50%;
+}
